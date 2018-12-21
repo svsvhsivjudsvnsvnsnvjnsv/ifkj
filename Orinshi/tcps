@@ -1,0 +1,14 @@
+    clear
+    echo -e "${RED}"
+    echo -e "▄▄▄▄▄ ▄▄·  ▄▄▄·"
+    echo -e "•██  ▐█ ▌▪▐█ ▄█"
+    echo -e " ▐█.▪██ ▄▄ ██▀·"
+    echo -e " ▐█▌·▐███▌▐█▪·•"
+    echo -e " ▀▀▀ ·▀▀▀ .▀   "
+echo -e -n "${GREEN}Enter Target Ip: "
+read ip
+echo -e -n "${PURPLE}Enter Port: "
+read port
+echo -e -n "${GREEN}Enter Time: "
+read time
+python tcp.py $ip POST $port $time

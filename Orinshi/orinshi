@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import os
+import sys
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+sys.stdout.write("\x1b]2;|:.orinshi.:|:.users:1.:|:.0.2-Beta.:|\x07")
+bots= ("0")
+banner= ("Enter Your Target")
+def orinshi():
+    print ("\033[95m  ▄▀▀▀▀▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▀▄    ▄▀▀▄ ▀▄  ▄▀▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▀▄   ")
+    print ("\033[93m █      █ █   █   █ █   █  █  █  █ █ █ █ █   ▐ █  █   ▄▀ █   █  █  ")
+    print (" █      █ ▐  █▀▀█▀  ▐   █  ▐  ▐  █  ▀█    ▀▄   ▐  █▄▄▄█  ▐   █  ▐  ")
+    print (" ▀▄    ▄▀  ▄▀    █      █       █   █  ▀▄   █     █   █      █     ")
+    print ("   ▀▀▀▀   █     █    ▄▀▀▀▀▀▄  ▄▀   █    █▀▀▀     ▄▀  ▄▀   ▄▀▀▀▀▀▄  ")
+    print ("          ▐     ▐   █       █ █    ▐    ▐       █   █    █       █ ")
+    print ("                   ▐       ▐ ▐                 ▐   ▐    ▐       ▐  ")
+    print ('\033[91m')
+    orinshi=(input("[orinshi]~# "))
+    if orinshi=='udp':
+        udp()
+    elif orinshi=='tcp':
+        tcp()
+    elif orinshi=='help':
+        help()
+    elif orinshi=='scan':
+        map()
+    elif orinshi=='clear':
+        clearr()
+    elif orinshi=='exit':
+        leave()
+    else:
+        print(" Orinshi's Samurai ")
+        orinshi()
+def udp():
+   print (banner)
+   os.system ('bash udps')
+   orishi()
+def tcp():
+   print (banner)
+   os.system ('bash tcps')
+   orinshi()
+def help():
+   os.system ('clear')
+   print ('\033[94m')
+   print (" udp to run an udp attack on target       ")
+   print ("\033[95mtcp to run an tcp attack on target")
+   print ("\033[94mhelp to display this help message ")
+   print ("\033[95mscan to scan for open ports       ")
+   print ("\033[94mclear to clear your screen        ")
+   print ("\033[95mexit to leave orinshi             ")
+   orinshi()
+def scan():
+   os.system ('bash map')
+   orinshi()
+def clear():
+   os.system ('clear')
+   orinshi()
+def leave():
+   print (" Bye My Samurai")
+   sys.exit()
+
+# main routine
+orinshi()
