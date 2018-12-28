@@ -1,0 +1,311 @@
+▄▀▀▀▀▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▀▄    ▄▀▀▄ ▀▄  ▄▀▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▀▄
+
+ █      █ █   █   █ █   █  █  █  █ █ █ █ █   ▐ █  █   ▄▀ █   █  █
+
+ █      █ ▐  █▀▀█▀  ▐   █  ▐  ▐  █  ▀█    ▀▄   ▐  █▄▄▄█  ▐   █  ▐
+
+ ▀▄    ▄▀  ▄▀    █      █       █   █  ▀▄   █     █   █      █
+
+   ▀▀▀▀   █     █    ▄▀▀▀▀▀▄  ▄▀   █    █▀▀▀     ▄▀  ▄▀   ▄▀▀▀▀▀▄
+
+          ▐     ▐   █       █ █    ▐    ▐       █   █    █       █
+
+                   ▐       ▐ ▐                 ▐   ▐    ▐       ▐
+
+                          ╔═════════════╗
+
+                          ║    お臨死   ║
+
+                          ║     orin    ║
+
+                         ╔╝═╗═════════╔═╚╗
+
+               ╔═════════╝══╚═════════╝══╚═════════╗
+
+               ║ Made by Red Reaper-レッドリーパー ║
+
+               ╚═══════════════════════════════════╝
+
+[orinshi]~# exit
+
+ Bye My Samurai
+
+[ security ~/ifkj/Orinshi]# cat orinshi
+
+#!/usr/bin/env python
+
+# -*- coding: utf-8 -*-
+
+import os
+
+import sys
+
+import scapy
+
+class bcolors:
+
+    HEADER = '\033[95m'
+
+    OKBLUE = '\033[94m'
+
+    OKGREEN = '\033[92m'
+
+    WARNING = '\033[93m'
+
+    FAIL = '\033[91m'
+
+    ENDC = '\033[0m'
+
+    BOLD = '\033[1m'
+
+    UNDERLINE = '\033[4m'
+
+sys.stdout.write("\x1b]2;|:.orinshi.:|:.users:1.:|:.0.3-Beta.:|\x07")
+
+bots= ("0")
+
+banner= ("Enter Your Target")
+
+def bannana():
+
+    os.system ('clear')
+
+    print ("\033[96m  ▄▀▀▀▀▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▀▄    ▄▀▀▄ ▀▄  ▄▀▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▀▄   ")
+
+    print ("\033[96m █      █ █   █   █ █   █  █  █  █ █ █ █ █   ▐ █  █   ▄▀ █   █  █  ")
+
+    print ("\033[96m █      █ ▐  █▀▀█▀  ▐   █  ▐  ▐  █  ▀█    ▀▄   ▐  █▄▄▄█  ▐   █  ▐  ")
+
+    print ("\033[97m ▀▄    ▄▀  ▄▀    █      █       █   █  ▀▄   █     █   █      █     ")
+
+    print ("\033[97m   ▀▀▀▀   █     █    ▄▀▀▀▀▀▄  ▄▀   █    █▀▀▀     ▄▀  ▄▀   ▄▀▀▀▀▀▄  ")
+
+    print ("\033[97m          ▐     ▐   █       █ █    ▐    ▐       █   █    █       █ ")
+
+    print ("\033[97m                   ▐       ▐ ▐                 ▐   ▐    ▐       ▐  ")
+
+    print ("\033[96m ")
+
+    print ("                          ╔═════════════╗                          ")
+
+    print ("                          ║    お臨死   ║                          ")
+
+    print ("                          ║     orin    ║                          ")
+
+    print ("                         ╔╝═╗═════════╔═╚╗                         ")
+
+    print ("               ╔═════════╝══╚═════════╝══╚═════════╗               ")
+
+    print ("               ║ Made by Red Reaper-レッドリーパー ║               ")
+
+    print ("               ╚═══════════════════════════════════╝               ")
+
+def bannana2():
+
+    os.system ('clear')
+
+    print ("\033[96m  ▄▀▀▀▀▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▀▄    ▄▀▀▄ ▀▄  ▄▀▀▀▀▄  ▄▀▀▄ ▄▄   ▄▀▀█▀▄   ")
+
+    print ("\033[96m █      █ █   █   █ █   █  █  █  █ █ █ █ █   ▐ █  █   ▄▀ █   █  █  ")
+
+    print ("\033[96m █      █ ▐  █▀▀█▀  ▐   █  ▐  ▐  █  ▀█    ▀▄   ▐  █▄▄▄█  ▐   █  ▐  ")
+
+    print ("\033[97m ▀▄    ▄▀  ▄▀    █      █       █   █  ▀▄   █     █   █      █     ")
+
+    print ("\033[97m   ▀▀▀▀   █     █    ▄▀▀▀▀▀▄  ▄▀   █    █▀▀▀     ▄▀  ▄▀   ▄▀▀▀▀▀▄  ")
+
+    print ("\033[97m          ▐     ▐   █       █ █    ▐    ▐       █   █    █       █ ")
+
+    print ("\033[97m                   ▐       ▐ ▐                 ▐   ▐    ▐       ▐  ")
+
+    print ("\033[96m ")
+
+    print ("               ╔═════════════╗                          ")
+
+    print ("               ║    お臨死   ║                          ")
+
+    print ("               ║     orin    ║                          ")
+
+    print ("              ╔╝═╗═════════╔═╚╗                         ")
+
+    print ("    ╔═════════╝══╚═════════╝══╚═════════╗               ")
+
+    print ("    ║ Made by Red Reaper-レッドリーパー ║               ")
+
+    print ("    ╚═══════════════════════════════════╝               ")
+
+def orin():
+
+    bannana()
+
+    orinshi=(input("\033[96m[orinshi]~#\033[97m "))
+
+    if orinshi=="udp":
+
+        os.system("python ./udp %s %s %s" % (orinshi.split(" ")[1], orinshi.split(" ")[2],
+
+command.split(" ")[3]))
+
+        orin()
+
+    elif orinshi=="syn":
+
+        os.system("python2 syn %s %s %s" % (orinshi.split(" ")[1], orinshi.split(" ")[2],
+
+command.split(" ")[3]))
+
+        orin()
+
+    elif orinshi=="tcp":
+
+        tcp()
+
+    elif orinshi=="help":
+
+        help()
+
+    elif orinshi=='scan':
+
+        map()
+
+    elif orinshi=='clear':
+
+        os.system ('clear')
+
+        orin()
+
+    elif orinshi=='edit':
+
+        os.system ('nano orinshi')
+
+        orin()
+
+    elif orinshi=='exit':
+
+        leave()
+
+    elif orinshi=='update':
+
+        os.system ('clear')
+
+        os.system ('./orinshi')
+
+    elif orinshi=='newbie':
+
+        print ("╔══════════════╗")
+
+        print ("║Info Mofule CS║")
+
+        print ("╚══════════════╝")
+
+        orin()
+
+    elif orinshi=='ifconfig':
+
+        print (" ════════════════════════════════════════════════════════════════════════════════════ ")
+
+        os.system ('ifconfig')
+
+        print (" ════════════════════════════════════════════════════════════════════════════════════ ")
+
+        print ("                                 O R I N S H I                               ")
+
+        orin()
+
+    else:
+
+        print ('\033[96m')
+
+        print ("                     お臨死                       ")
+
+        print ("╔════════════════════════════════════════════════╗")
+
+        print ("║Command Not Found Type help For List Of Commands║")
+
+        print ("╚════════════════════════════════════════════════╝")
+
+        orin()
+
+def udp():
+
+   print (banner)
+
+   os.system ('bash udps')
+
+   orin()
+
+def tcp():
+
+   print (banner)
+
+   os.system ('bash tcps')
+
+   orin()
+
+def help():
+
+   os.system('clear')
+
+   bannana()
+
+   print ("╔══════════════════════════════════════════╗ ")
+
+   print ("║udp <target> <port> <time>                ║ ")
+
+   print ("║tcp prompts tcp menu for you              ║ ")
+
+   print ("║syn <target> <port> <threads>             ║ ")
+
+   print ("║help to display this help message         ║ ")
+
+   print ("║scan to scan for open ports               ║ ")
+
+   print ("║clear to clear your screen                ║ ")
+
+   print ("║whois <target> uses systems whois module  ║ ")
+
+   print ("║exit to leave orinshi                     ║ ")
+
+   print ("║update apply new changes                  ║ ")
+
+   print ("║ifconfig to show network config           ║ ")
+
+   print ("║newbie to learn about what this program is║ ")
+
+   print ("║banner <number> to change orinshi's banner║ ")
+
+   print ("╚══════════════════════════════════════════╝ ")
+
+   print ("╔══════════════════════════════════════════╗ ")
+
+   print ("║              O R I N S H I               ║ ")
+
+   print ("║                  お臨死                  ║ ")
+
+   print ("║                    0.5                   ║ ")
+
+   print ("╚══════════════════════════════════════════╝ ")
+
+   print ('\033[91m')
+
+   orin()
+
+def map():
+
+   print ("\033[96m")
+
+   os.system ('./map')
+
+   orin()
+
+def leave():
+
+   print (" Bye My Samurai")
+
+   sys.exit()
+
+# main routine
+
+orin()
+
+[ security ~/ifkj/Orinshi]# p
